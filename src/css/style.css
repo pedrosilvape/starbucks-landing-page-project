@@ -214,6 +214,13 @@ a.btn {
 }
 
 @media (min-width: 768px) {
+    #container {
+        background-image: url('../images/background-desktop.png');
+        background-size: cover;
+        background-position: start;
+        background-repeat: no-repeat;
+    }
+
     #trending {
         .trending-cards {
             display: flex;
